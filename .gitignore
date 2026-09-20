@@ -1,0 +1,11 @@
+data/
+__pycache__/
+*.pyc
+indexes/
+.DS_Store
+bench/results/tmp/
+searchengine/native/*.dylib
+data/crawl/
+data/beir/
+models/
+indexes/

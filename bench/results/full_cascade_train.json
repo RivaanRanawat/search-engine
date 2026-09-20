@@ -1,0 +1,8 @@
+{
+  "bm25": 0.19823,
+  "hybrid_rerank": 0.34696,
+  "union_linear": 0.34621,
+  "union+ce20": 0.42133,
+  "rerank+ce20": 0.41411,
+  "ce_p50_ms": 110.5
+}

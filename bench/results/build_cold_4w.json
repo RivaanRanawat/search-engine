@@ -1,0 +1,33 @@
+{
+  "workers": 4,
+  "cache": "cold",
+  "corpus_gb": 3.062,
+  "evict_s": 26.5,
+  "stage_index_s": 23.99,
+  "n_docs": 8841823,
+  "n_terms": 1270558,
+  "total_postings": 348093970,
+  "phases": {
+    "scan_s": 11.97,
+    "vocab_s": 1.18,
+    "place_s": 4.33,
+    "impacts_s": 4.83,
+    "write_s": 1.57,
+    "total_s": 23.87
+  },
+  "stage_compress_s": 3.38,
+  "stage_docstore_s": 2.38,
+  "TOTAL_servable_s": 29.75,
+  "tokens": 511505091,
+  "rates": {
+    "docs_per_s_indexer_only": 368563,
+    "docs_per_s_servable": 297204,
+    "tokens_per_s_servable": 17193448,
+    "MB_per_s_servable": 102.9
+  },
+  "caveats": {
+    "positions_built": false,
+    "stored_fields": "none (doc text read from the original TSV via mmap)",
+    "note": "docs/s is corpus-dependent; tokens/s and MB/s are the comparable units."
+  }
+}

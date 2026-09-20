@@ -1,0 +1,13 @@
+{
+  "mode": "global_scaled",
+  "n_queries": 1000,
+  "top10_overlap_vs_single_node": 0.9879,
+  "top1_exact_match": 0.958,
+  "mrr_distributed": 0.18061,
+  "mrr_single_node": 0.1839,
+  "broker_p50_ms": 5.85,
+  "broker_p95_ms": 22.14,
+  "broker_p99_ms": 39.66,
+  "broker_mean_ms": 8.63,
+  "degraded_responses": 0
+}

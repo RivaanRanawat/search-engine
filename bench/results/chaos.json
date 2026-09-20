@@ -1,0 +1,56 @@
+{
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "healthy: not degraded",
+      "pass": true,
+      "detail": "degraded=False hits=5 took=4.131ms"
+    },
+    {
+      "check": "slow shard is cut off by the deadline",
+      "pass": true,
+      "detail": "client saw 257ms (deadline 250ms)"
+    },
+    {
+      "check": "slow shard reported as degraded, not silently dropped",
+      "pass": true,
+      "detail": "degraded=True failed=[{'shard': 0, 'error': 'timeout'}]"
+    },
+    {
+      "check": "still returns results from healthy shards",
+      "pass": true,
+      "detail": "5 hits"
+    },
+    {
+      "check": "partition surfaces as degraded",
+      "pass": true,
+      "detail": "failed=[{'shard': 0, 'error': '[Errno 54] Connection reset by peer'}]"
+    },
+    {
+      "check": "partition still returns partial results",
+      "pass": true,
+      "detail": "5 hits"
+    },
+    {
+      "check": "blackhole cannot hang the query",
+      "pass": true,
+      "detail": "returned in 257ms"
+    },
+    {
+      "check": "blackhole reported as degraded",
+      "pass": true,
+      "detail": "failed=[{'shard': 0, 'error': 'timeout'}]"
+    },
+    {
+      "check": "recovers to healthy automatically",
+      "pass": true,
+      "detail": "degraded=False hits=5"
+    },
+    {
+      "check": "results match the pre-fault baseline",
+      "pass": true,
+      "detail": "same top-5 docids as before any fault"
+    }
+  ]
+}

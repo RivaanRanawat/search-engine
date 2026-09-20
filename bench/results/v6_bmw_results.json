@@ -1,0 +1,10 @@
+{
+  "mrr_at_10": 0.18913,
+  "blocks_decoded_p50": 2098,
+  "blocks_decoded_p95": 8750,
+  "warm_p50_ms": 1.495,
+  "warm_p95_ms": 9.827,
+  "warm_p99_ms": 18.799,
+  "warm_mean_ms": 2.823,
+  "warm_qps_1core": 354.2
+}

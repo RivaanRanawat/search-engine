@@ -1,0 +1,9 @@
+{
+  "dataset": "scifact",
+  "n_docs": 5183,
+  "n_queries": 300,
+  "build_s": 0.0,
+  "ndcg@10_bm25": 0.68818,
+  "p50_ms": 0.63,
+  "ndcg@10_hybrid": 0.6108
+}

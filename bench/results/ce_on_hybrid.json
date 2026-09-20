@@ -1,0 +1,22 @@
+{
+  "n_queries": 250,
+  "stages": {
+    "bm25": {
+      "mrr": 0.17287
+    },
+    "hybrid": {
+      "mrr": 0.27737,
+      "note": "includes on-the-fly passage encoding; served latency uses the prebuilt index"
+    },
+    "hybrid+ce@10": {
+      "mrr": 0.32108,
+      "ce_p50_ms": 346.6,
+      "ce_mean_ms": 361.2
+    },
+    "hybrid+ce@20": {
+      "mrr": 0.3106,
+      "ce_p50_ms": 709.1,
+      "ce_mean_ms": 723.1
+    }
+  }
+}

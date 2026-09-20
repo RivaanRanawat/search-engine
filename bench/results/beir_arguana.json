@@ -1,0 +1,8 @@
+{
+  "dataset": "arguana",
+  "n_docs": 8674,
+  "n_queries": 1401,
+  "build_s": 0.2,
+  "ndcg@10_bm25": 0.29737,
+  "p50_ms": 5.02
+}

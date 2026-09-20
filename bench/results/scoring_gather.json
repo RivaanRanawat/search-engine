@@ -1,0 +1,38 @@
+{
+ "n_docs": 8841823,
+ "reps": 9,
+ "results": [
+  {
+   "postings": 4000000,
+   "avg_docid_gap": 2.2,
+   "gather_ms": 6.142,
+   "arithmetic_ms": 7.399,
+   "precomputed_read_ms": 0.863,
+   "speedup": 15.7
+  },
+  {
+   "postings": 500000,
+   "avg_docid_gap": 17.7,
+   "gather_ms": 0.913,
+   "arithmetic_ms": 0.844,
+   "precomputed_read_ms": 0.106,
+   "speedup": 16.6
+  },
+  {
+   "postings": 50000,
+   "avg_docid_gap": 176.8,
+   "gather_ms": 0.097,
+   "arithmetic_ms": 0.046,
+   "precomputed_read_ms": 0.003,
+   "speedup": 43.0
+  },
+  {
+   "postings": 2000,
+   "avg_docid_gap": 4420.9,
+   "gather_ms": 0.004,
+   "arithmetic_ms": 0.005,
+   "precomputed_read_ms": 0.0,
+   "speedup": 28.8
+  }
+ ]
+}

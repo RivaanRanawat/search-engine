@@ -1,0 +1,174 @@
+{
+  "n_docs": 300000,
+  "batch": 25000,
+  "writes": [
+    {
+      "segment": 0,
+      "docs": 25000,
+      "s": 0.59,
+      "docs_per_s": 42646
+    },
+    {
+      "segment": 1,
+      "docs": 25000,
+      "s": 0.58,
+      "docs_per_s": 42860
+    },
+    {
+      "segment": 2,
+      "docs": 25000,
+      "s": 0.55,
+      "docs_per_s": 45611
+    },
+    {
+      "segment": 3,
+      "docs": 25000,
+      "s": 0.63,
+      "docs_per_s": 39676
+    },
+    {
+      "segment": 4,
+      "docs": 25000,
+      "s": 0.67,
+      "docs_per_s": 37441
+    },
+    {
+      "segment": 5,
+      "docs": 25000,
+      "s": 0.66,
+      "docs_per_s": 37809
+    },
+    {
+      "segment": 6,
+      "docs": 25000,
+      "s": 0.68,
+      "docs_per_s": 36719
+    },
+    {
+      "segment": 7,
+      "docs": 25000,
+      "s": 0.76,
+      "docs_per_s": 32985
+    },
+    {
+      "segment": 8,
+      "docs": 25000,
+      "s": 0.66,
+      "docs_per_s": 37643
+    },
+    {
+      "segment": 9,
+      "docs": 25000,
+      "s": 0.84,
+      "docs_per_s": 29713
+    },
+    {
+      "segment": 10,
+      "docs": 25000,
+      "s": 0.81,
+      "docs_per_s": 30789
+    },
+    {
+      "segment": 11,
+      "docs": 25000,
+      "s": 0.87,
+      "docs_per_s": 28786
+    }
+  ],
+  "reads": [
+    {
+      "segments": 1,
+      "p50_ms": 0.162,
+      "mean_ms": 0.197
+    },
+    {
+      "segments": 2,
+      "p50_ms": 0.302,
+      "mean_ms": 0.39
+    },
+    {
+      "segments": 3,
+      "p50_ms": 0.493,
+      "mean_ms": 0.565
+    },
+    {
+      "segments": 4,
+      "p50_ms": 0.608,
+      "mean_ms": 0.76
+    },
+    {
+      "segments": 5,
+      "p50_ms": 0.801,
+      "mean_ms": 1.098
+    },
+    {
+      "segments": 6,
+      "p50_ms": 0.893,
+      "mean_ms": 1.165
+    },
+    {
+      "segments": 7,
+      "p50_ms": 1.035,
+      "mean_ms": 1.423
+    },
+    {
+      "segments": 8,
+      "p50_ms": 1.209,
+      "mean_ms": 1.587
+    },
+    {
+      "segments": 9,
+      "p50_ms": 1.412,
+      "mean_ms": 1.801
+    },
+    {
+      "segments": 10,
+      "p50_ms": 1.548,
+      "mean_ms": 1.96
+    },
+    {
+      "segments": 11,
+      "p50_ms": 1.81,
+      "mean_ms": 2.231
+    },
+    {
+      "segments": 12,
+      "p50_ms": 2.256,
+      "mean_ms": 2.641
+    }
+  ],
+  "full_rebuild_s": 1.6,
+  "drift": {
+    "top10_overlap_vs_full_rebuild": 0.915,
+    "mrr_live": 0.00404,
+    "mrr_full_rebuild": 0.00407,
+    "segments": 12
+  },
+  "after_merge": {
+    "merges": [
+      {
+        "merged": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "into": 12,
+        "docs": 300000,
+        "merge_s": 3.05,
+        "segments_now": 1
+      }
+    ],
+    "segments": 1,
+    "p50_ms": 0.493,
+    "top10_overlap_vs_full_rebuild": 1.0
+  }
+}

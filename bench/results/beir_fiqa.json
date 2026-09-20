@@ -1,0 +1,8 @@
+{
+  "dataset": "fiqa",
+  "n_docs": 57638,
+  "n_queries": 648,
+  "build_s": 1.1,
+  "ndcg@10_bm25": 0.24709,
+  "p50_ms": 2.27
+}

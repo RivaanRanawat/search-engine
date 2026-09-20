@@ -1,0 +1,48 @@
+{
+  "mrr_bm25": 0.20477,
+  "mrr_dense_exact": 0.31129,
+  "pq": [
+    {
+      "m_bytes": 24,
+      "mrr": 0.2791,
+      "recon_cos": 0.7216,
+      "corpus_gb": 0.212,
+      "train_s": 9.3
+    },
+    {
+      "m_bytes": 32,
+      "mrr": 0.29381,
+      "recon_cos": 0.7715,
+      "corpus_gb": 0.283,
+      "train_s": 12.2
+    },
+    {
+      "m_bytes": 48,
+      "mrr": 0.29799,
+      "recon_cos": 0.847,
+      "corpus_gb": 0.424,
+      "train_s": 17.1
+    },
+    {
+      "m_bytes": 64,
+      "mrr": 0.29432,
+      "recon_cos": 0.8979,
+      "corpus_gb": 0.566,
+      "train_s": 22.1
+    },
+    {
+      "m_bytes": 96,
+      "mrr": 0.31011,
+      "recon_cos": 0.9548,
+      "corpus_gb": 0.849,
+      "train_s": 32.3
+    },
+    {
+      "m_bytes": 128,
+      "mrr": 0.31081,
+      "recon_cos": 0.9801,
+      "corpus_gb": 1.132,
+      "train_s": 42.0
+    }
+  ]
+}

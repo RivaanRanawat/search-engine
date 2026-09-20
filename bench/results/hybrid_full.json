@@ -1,0 +1,13 @@
+{
+  "n_queries": 6980,
+  "dense_coverage": 1.0,
+  "mrr_bm25": 0.18924,
+  "p50_ms": 8.166,
+  "p95_ms": 24.944,
+  "p99_ms": 39.308,
+  "mean_ms": 10.602,
+  "phase_bm25_ms": 8.282,
+  "phase_encode_ms": 0.991,
+  "qps_1core": 94.3,
+  "mrr_hybrid": 0.31562
+}

@@ -1,0 +1,23 @@
+{
+  "_note": "Relevance judgments for the crawled web corpus. Graded 0/1/2 (not relevant / partially relevant / highly relevant). Judged from the SHUFFLED, unlabelled pool in pool.jsonl, so no document's grade could be influenced by which system returned it. Judge: the assistant (LLM-as-judge). See notes/25 for the biases this carries — these are NOT human judgments and must not be presented as such.",
+  "information retrieval": {"1189": 2, "2222": 2, "3902": 2, "1157": 1, "560": 1, "6981": 1, "3629": 1, "21": 2, "652": 1},
+  "how do search engines rank pages": {"453": 0, "451": 1, "179": 0, "5638": 0, "1708": 0, "566": 2, "455": 2},
+  "bm25 ranking function": {"1708": 0, "6959": 0, "773": 0, "7077": 0, "21": 1, "6732": 0, "7132": 0, "5903": 0, "6985": 0, "2832": 0},
+  "inverted index data structure": {"1244": 0, "4501": 0, "2230": 0, "1157": 0, "226": 2, "2076": 2, "21": 1, "819": 0},
+  "why is my database slow": {"2529": 0, "3781": 0, "4744": 2, "4263": 0, "1204": 0, "1366": 0, "3986": 0, "2054": 1, "1261": 1},
+  "postgres performance tuning": {"2554": 1, "1359": 2, "2053": 1, "4743": 2, "7078": 2, "4744": 2, "263": 2, "4113": 1},
+  "sql indexing": {"2567": 2, "3781": 1, "4744": 2, "4743": 2, "4742": 1, "6668": 0},
+  "quantum computing explained": {"2311": 0, "4102": 0, "5772": 0, "873": 0, "6457": 0, "4303": 1, "2074": 0, "4544": 2, "1714": 1},
+  "manhattan project history": {"4628": 0, "3736": 0, "7": 0, "3125": 0, "5834": 0, "759": 0, "7139": 0, "517": 0, "4929": 0},
+  "machine learning basics": {"4236": 1, "6640": 0, "2050": 0, "576": 0, "1111": 0, "5756": 2, "5699": 0, "6158": 0, "2142": 0},
+  "how to write clearly": {"256": 0, "3290": 0, "4672": 0, "7103": 2, "3700": 0, "1210": 2, "2963": 0, "5406": 0, "2042": 0, "69": 0},
+  "creative commons license terms": {"287": 2, "108": 1, "131": 2, "121": 0, "5140": 1, "803": 2, "297": 0, "32": 2, "5217": 2},
+  "wikipedia main page": {"5": 1, "7071": 0, "578": 1, "1": 2, "46": 1, "595": 1, "583": 1, "555": 1, "45": 0},
+  "arxiv information retrieval papers": {"289": 1, "6465": 2, "3629": 2, "4075": 0, "7170": 0, "104": 0, "31": 0, "645": 0},
+  "python programming language": {"4550": 2, "6158": 1, "4557": 1, "983": 2, "2419": 1, "1318": 1, "2498": 1},
+  "distributed systems consistency": {"606": 2, "4657": 0, "5317": 0, "1108": 2, "1113": 2, "19": 1, "1204": 0, "750": 0, "3881": 0},
+  "text tokenization and stemming": {"1024": 0, "3916": 0, "1637": 0, "6848": 0, "226": 1, "268": 2, "6831": 2},
+  "vector embeddings for search": {"3574": 0, "1898": 0, "2259": 0, "6216": 0, "7092": 0, "7119": 1, "4099": 1, "7128": 0, "196": 0},
+  "web crawler politeness robots txt": {"6683": 1, "6685": 1, "6563": 0, "4673": 0, "6961": 1, "5637": 0, "2535": 0},
+  "open source search software": {"6570": 0, "1936": 0, "4555": 0, "297": 0, "3705": 0, "811": 0, "3635": 0, "4630": 1}
+}

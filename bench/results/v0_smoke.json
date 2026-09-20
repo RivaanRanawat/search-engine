@@ -1,0 +1,20 @@
+[
+  {
+    "n_docs": 50000,
+    "build_s": 0.9462432500440627,
+    "n_terms": 72847,
+    "n_tokens": 2742952,
+    "build_docs_per_s": 52840.5354518214,
+    "rss_after_build_gb": 0.184778752,
+    "save_s": 0.46054962486959994,
+    "pickle_gb": 0.015006316,
+    "n_eligible_queries": 17,
+    "mrr_eval_s": 0.23592141713015735,
+    "mrr_subset_upper_bound": 0.4166666666666667,
+    "query_p50_ms": 9.441500063985586,
+    "query_p95_ms": 34.668416948989034,
+    "query_p99_ms": 34.668416948989034,
+    "query_mean_ms": 13.109612744301558,
+    "pickle_load_s": 0.1883159999269992
+  }
+]

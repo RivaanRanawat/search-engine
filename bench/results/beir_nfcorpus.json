@@ -1,0 +1,8 @@
+{
+  "dataset": "nfcorpus",
+  "n_docs": 3633,
+  "n_queries": 323,
+  "build_s": 0.2,
+  "ndcg@10_bm25": 0.31884,
+  "p50_ms": 0.17
+}

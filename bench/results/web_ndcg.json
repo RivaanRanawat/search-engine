@@ -1,0 +1,49 @@
+{
+  "n_queries_judged": 19,
+  "queries_with_no_relevant_doc": [
+    "manhattan project history"
+  ],
+  "metric": "nDCG@10 (graded 0/1/2, pooled LLM judgments)",
+  "results": [
+    {
+      "config": "hybrid(alpha=0.3)",
+      "ndcg@10": 0.7921
+    },
+    {
+      "config": "hybrid(a=0.3)+pr(beta=0.05)",
+      "ndcg@10": 0.7897
+    },
+    {
+      "config": "hybrid(a=0.3)+pr(beta=0.15)",
+      "ndcg@10": 0.7707
+    },
+    {
+      "config": "hybrid(alpha=0.5)",
+      "ndcg@10": 0.7475
+    },
+    {
+      "config": "hybrid(alpha=0.1)",
+      "ndcg@10": 0.663
+    },
+    {
+      "config": "bm25+pr(beta=0.15)",
+      "ndcg@10": 0.6484
+    },
+    {
+      "config": "bm25+pr(beta=0.0)",
+      "ndcg@10": 0.6464
+    },
+    {
+      "config": "bm25+pr(beta=0.05)",
+      "ndcg@10": 0.6416
+    },
+    {
+      "config": "bm25+pr(beta=0.3)",
+      "ndcg@10": 0.6246
+    },
+    {
+      "config": "hybrid(a=0.3)+pr(beta=0.3)",
+      "ndcg@10": 0.6238
+    }
+  ]
+}

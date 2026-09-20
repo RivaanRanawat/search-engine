@@ -1,0 +1,16 @@
+{
+  "n_queries": 6980,
+  "load_s": 0.34,
+  "mrr_at_10": 0.18913,
+  "blocks_decoded_p50": 2355,
+  "blocks_decoded_p95": 9349,
+  "cold_p50_ms": 1.782,
+  "cold_p95_ms": 11.036,
+  "cold_p99_ms": 21.618,
+  "cold_mean_ms": 3.258,
+  "warm_p50_ms": 1.671,
+  "warm_p95_ms": 10.935,
+  "warm_p99_ms": 20.929,
+  "warm_mean_ms": 3.136,
+  "warm_qps_1core": 318.9
+}

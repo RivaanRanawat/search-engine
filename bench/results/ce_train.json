@@ -1,0 +1,28 @@
+{
+  "split": "train",
+  "n_queries": 250,
+  "mrr_bm25": 0.17287,
+  "depths": [
+    {
+      "depth": 10,
+      "mrr": 0.24501,
+      "rerank_p50_ms": 378.0,
+      "rerank_p95_ms": 539.6,
+      "rerank_mean_ms": 378.3
+    },
+    {
+      "depth": 20,
+      "mrr": 0.27078,
+      "rerank_p50_ms": 609.0,
+      "rerank_p95_ms": 873.7,
+      "rerank_mean_ms": 627.4
+    },
+    {
+      "depth": 50,
+      "mrr": 0.31355,
+      "rerank_p50_ms": 1350.0,
+      "rerank_p95_ms": 1747.7,
+      "rerank_mean_ms": 1372.0
+    }
+  ]
+}

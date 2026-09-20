@@ -1,0 +1,15 @@
+{
+  "split": "dev(sealed)",
+  "n_queries": 1000,
+  "hybrid+CE": 0.38796,
+  "union+CE": 0.3808,
+  "paired_diff": -0.00716,
+  "ci95": [
+    -0.01719,
+    0.00282
+  ],
+  "union_won": 64,
+  "hybrid_won": 81,
+  "tied": 855,
+  "significant": false
+}

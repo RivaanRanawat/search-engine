@@ -1,0 +1,36 @@
+{
+ "packing": {
+  "packed_ns_per_posting": 323.9,
+  "separate_arrays_ns_per_posting": 487.8,
+  "packing_speedup": 1.51
+ },
+ "tf_headroom": {
+  "total_postings": 348093970,
+  "pct_above": {
+   "3": 4.7347,
+   "7": 0.406,
+   "15": 0.0136,
+   "31": 0.0001,
+   "63": 0.0
+  },
+  "saturated_value": {
+   "15": 1.7925,
+   "31": 1.8464,
+   "63": 1.8732
+  },
+  "splits": {
+   "26+6": {
+    "max_docs": 67108863,
+    "tf_clamp": 63
+   },
+   "28+4": {
+    "max_docs": 268435455,
+    "tf_clamp": 15
+   },
+   "30+2": {
+    "max_docs": 1073741823,
+    "tf_clamp": 3
+   }
+  }
+ }
+}

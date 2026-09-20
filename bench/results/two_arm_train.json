@@ -1,0 +1,23 @@
+{
+  "split": "train",
+  "n_queries": 1200,
+  "K": 1000,
+  "nprobe": 32,
+  "recall_at_K": {
+    "bm25": 0.865,
+    "dense": 0.8842,
+    "union": 0.9875
+  },
+  "mrr10": {
+    "bm25": 0.17744,
+    "dense_only": 0.29908,
+    "linear_rerank": 0.33467,
+    "union_dense": 0.32516,
+    "union_linear": 0.33843,
+    "rrf": 0.26171
+  },
+  "latency_ms": {
+    "bm25_p50": 9.17,
+    "ann_p50": 34.73
+  }
+}
